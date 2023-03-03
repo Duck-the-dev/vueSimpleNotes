@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 import { useHead } from '@vueuse/head'
+import AddNote from './components/AddNoteModal.vue'
 
 useHead({
   title: 'Duck-the-dev vue + vite Template',
@@ -49,28 +49,15 @@ useHead({
 </script>
 
 <template>
-  <div class="flex items-center justify-center">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo h-44 w-44" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue h-44 w-44" alt="Vue logo" />
-    </a>
+  <div class="container">
+    <div
+      class="bg-transparent bg-gradient-to-r from-pink-900 to-purple-500 bg-clip-text text-7xl text-transparent shadow-purple-400 drop-shadow-md duration-200 hover:shadow-xl hover:drop-shadow-2xl"
+    >
+      Simple Notes
+    </div>
   </div>
-  <HelloWorld msg="LonesomeT0wn start" />
+
+  <AddNote />
 </template>
 
-<style scoped>
-.logo {
-  height: 8em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>
