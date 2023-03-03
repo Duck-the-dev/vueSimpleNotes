@@ -3,7 +3,7 @@ import { useHead } from '@vueuse/head'
 import AddNote from './components/AddNoteModal.vue'
 
 useHead({
-  title: 'Duck-the-dev vue + vite Template',
+  title: 'Duck-the-dev / vue Simple Notes',
   link: [
     {
       rel: 'mask-icon',
