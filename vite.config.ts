@@ -81,8 +81,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Modern Vue',
-        short_name: 'modern-vue',
+        name: 'Duck-the-Dev',
+        short_name: 'DTD',
         theme_color: '#ffffff',
         dir: "ltr",
         lang: "en-US",
