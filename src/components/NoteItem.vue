@@ -8,7 +8,7 @@ const props = defineProps({
 <template>
   <div class="card min-w-max overflow-hidden text-ellipsis bg-base-100 text-xl shadow-xl">
     <div class="mx-auto text-clip text-center">
-      <p>{{ props.text }}</p>
+      <p id="content">{{ props.text }}</p>
 
       <div class="m-2 justify-end">
         {{ props.date }}

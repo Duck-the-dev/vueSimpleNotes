@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`note > add new note 1`] = `
+"<div class=\\"container mx-auto mt-5 mb-5\\">
+  <!-- The button to open modal --><label id=\\"addNoteModal\\" for=\\"my-modal-6\\" class=\\"btn-xl btn-primary btn\\">Add note</label><!-- Put this part before </body> tag --><input type=\\"checkbox\\" id=\\"my-modal-6\\" class=\\"modal-toggle\\">
+  <div class=\\"modal modal-bottom sm:modal-middle\\">
+    <div class=\\"modal-box\\"><label for=\\"my-modal-6\\" class=\\"btn-sm btn-circle btn absolute right-2 top-2\\">✕</label>
+      <div class=\\"form-control\\"><label class=\\"label\\"><span class=\\"label-text\\">Add New Note</span></label><textarea class=\\"textarea-bordered textarea h-24 max-h-52\\" placeholder=\\"Note content\\"></textarea></div>
+      <div class=\\"modal-action\\" style=\\"display: none;\\"><label for=\\"my-modal-6\\" class=\\"btn\\" id=\\"addNoteConfirm\\">Add Note!</label></div>
+    </div>
+  </div>
+</div>
+<!-- grid of notes -->
+<div class=\\"grid grid-flow-row gap-4 sm:grid-cols-1 md:grid-cols-4\\"></div>"
+`;
+
+exports[`note > add two notes 1`] = `
+"<div class=\\"container mx-auto mt-5 mb-5\\">
+  <!-- The button to open modal --><label id=\\"addNoteModal\\" for=\\"my-modal-6\\" class=\\"btn-xl btn-primary btn\\">Add note</label><!-- Put this part before </body> tag --><input type=\\"checkbox\\" id=\\"my-modal-6\\" class=\\"modal-toggle\\">
+  <div class=\\"modal modal-bottom sm:modal-middle\\">
+    <div class=\\"modal-box\\"><label for=\\"my-modal-6\\" class=\\"btn-sm btn-circle btn absolute right-2 top-2\\">✕</label>
+      <div class=\\"form-control\\"><label class=\\"label\\"><span class=\\"label-text\\">Add New Note</span></label><textarea class=\\"textarea-bordered textarea h-24 max-h-52\\" placeholder=\\"Note content\\"></textarea></div>
+      <div class=\\"modal-action\\" style=\\"display: none;\\"><label for=\\"my-modal-6\\" class=\\"btn\\" id=\\"addNoteConfirm\\">Add Note!</label></div>
+    </div>
+  </div>
+</div>
+<!-- grid of notes -->
+<div class=\\"grid grid-flow-row gap-4 sm:grid-cols-1 md:grid-cols-4\\"></div>"
+`;

@@ -20,7 +20,9 @@ const addNote = () => {
 <template>
   <div class="container mx-auto mt-5 mb-5">
     <!-- The button to open modal -->
-    <label for="my-modal-6" class="btn-xl btn-primary btn">Add note</label>
+    <label id="addNoteModal" for="my-modal-6" class="btn-xl btn-primary btn"
+      >Add note</label
+    >
 
     <!-- Put this part before </body> tag -->
     <input type="checkbox" id="my-modal-6" class="modal-toggle" />
@@ -41,7 +43,9 @@ const addNote = () => {
           ></textarea>
         </div>
         <div v-show="newNote.length > 10" class="modal-action">
-          <label @click="addNote()" for="my-modal-6" class="btn">Add Note!</label>
+          <label @click="addNote()" for="my-modal-6" class="btn" id="addNoteConfirm"
+            >Add Note!</label
+          >
         </div>
       </div>
     </div>
